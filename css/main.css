@@ -5,11 +5,10 @@ body {
 
 .emoji {
   display: flex;
-  grid-template-columns: repeat(2, 1fr);
+  flex-direction: column;
   border: 1px solid #222;
   border-radius: 8px;
   padding: 1rem;
-  flex-direction: column;
 }
 
 .emoji h2 {
